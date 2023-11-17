@@ -92,5 +92,5 @@ void bitonic_sort(int *array, size_t size)
 	if (array == NULL || size < 2)
 		return;
 
-	bitonic - seq(array, size, 0, size, UP);
+	bitonic_seq(array, size, 0, size, UP);
 }
