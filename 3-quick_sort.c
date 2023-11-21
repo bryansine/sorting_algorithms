@@ -1,4 +1,4 @@
-#include 'sort.h"
+#include "sort.h"
 
 void swap_ints(int *a, int *b);
 int lomuto_partition(int *array, size_t size, int left, int right);
@@ -68,7 +68,7 @@ void lomuto_sort(int *array, size_t size, int left, int right)
 {
 	int part;
 
-	if (right - left > o)
+	if (right - left > 0)
 	{
 		part = lomuto_partition(array, size, left, right);
 		lomuto_sort(array, size, left, part - 1);
@@ -88,5 +88,5 @@ void quick_sort(int *array, size_t size)
 {
 	if (array == NULL || size < 2)
 		return;
-	lomuto_ort(array, size, 0, size - 1);
+	lomuto_sort(array, size, 0, size - 1);
 }

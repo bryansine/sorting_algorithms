@@ -4,8 +4,9 @@
 /**
  * print_array - Prints an array of integers
  *
- * @array: The array to be printed
+ * @array: Theinterger arrays to be printed
  * @size: The Number of elements in @array
+ * Description: Funtion displays elements of an interger array readable form.
  */
 void print_array(const int *array, size_t size)
 {
