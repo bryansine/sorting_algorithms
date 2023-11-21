@@ -59,10 +59,10 @@ void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back)
 /**
  * merge_sort - Sort an array of integers in ascending
  *              order using  merge sort algorithm.
- * @array: An array of integers.
+ * @array: An array of integers to sort.
  * @size: The size of the array.
  *
- * Description: Implements the top -down merge sort algorithm.
+ * Description: Implements the top -down merge sort algorithm by dividing into smaller subarrays until each subarray has only one elemnet.
  */
 void merge_sort(int *array, size_t size)
 {

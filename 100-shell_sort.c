@@ -17,10 +17,10 @@ void swap_ints(int *a, int *b)
  * swap_ints - swaps two intergers in an array
  * shell_sort - Sort an array of integers in ascending
  *              order using the shell sort algorithm.
- * @array: An array of integers.
+ * @array: An array of integers to sort.
  * @size: The size of the array.
  *
- * Description: Uses the Knuth interval sequence.
+ * Description: Uses the Knuth interval sequence to identify the the gap between elements being compared and swapped.
  */
 void shell_sort(int *array, size_t size)
 {

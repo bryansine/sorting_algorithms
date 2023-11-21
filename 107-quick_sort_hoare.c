@@ -80,11 +80,11 @@ void hoare_sort(int *array, size_t size, int left, int right)
 /**
  * quick_sort_hoare - Sort an array of integers in ascending
  *                    order using the quicksort algorithm.
- * @array: An array of integers.
+ * @array: An array of integers to sort
  * @size: The size of the array.
  *
  * Description: Uses the Hoare partition scheme. Prints
- * the array after each swap of two elements.
+ * the array after each swap of two elements providing a better visualization of the sorting process.
  */
 void quick_sort_hoare(int *array, size_t size)
 {

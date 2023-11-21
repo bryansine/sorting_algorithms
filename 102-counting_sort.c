@@ -26,7 +26,7 @@ int get_max(int *array, int size)
  * @array: An array of integers.
  * @size: The size of the array.
  *
- * Description: Prints the counting array after setting it up.
+ * Description: Prints the counting array after setting it up hence providing indights into the counting sort processes.
  */
 void counting_sort(int *array, size_t size)
 {
